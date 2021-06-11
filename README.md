@@ -7,3 +7,5 @@
 - refactor to testability, test, commit
 - https://signup.heroku.com/login
 - https://dashboard.heroku.com/new-app
+- enable Github deployments, "wait for CI to finish", trigger deployment
+- done: https://go-gin-heroku.herokuapp.com/
