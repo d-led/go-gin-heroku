@@ -9,3 +9,9 @@
 - https://dashboard.heroku.com/new-app
 - enable Github deployments, "wait for CI to finish", trigger deployment
 - done: https://go-gin-heroku.herokuapp.com/
+- added `/version` &rarr; empty in production
+- installed Heroku CLI
+- `heroku buildpacks:add --index 1 https://github.com/40thieves/heroku-buildpack-commit-hash.git -a go-gin-heroku` (login via the browser)
+- `heroku git:remote -a go-gin-heroku`
+- deploy via `git push heroku master`
+- https://go-gin-heroku.herokuapp.com/version done
